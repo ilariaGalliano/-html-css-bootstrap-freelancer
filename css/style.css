@@ -1,0 +1,62 @@
+/*  nav  */
+  .blue{
+  background: #2c3e50;
+  height: 100px;
+}
+/*  main  */
+.green{
+  background: #1abc9c;
+  height: 400px;
+}
+/*  portfolio  */
+.portfolio{
+  background: #ffff;
+  height:600px;
+}
+.margin{
+  margin: 10px;
+}
+.yellow{
+  height: 150px;
+  width: 100%;
+  border: 2px solid black;
+  background: yellow;
+  margin: 10px;
+}
+/*  about  */
+.about{
+  background: #1abc9c;
+  height:400px;
+}
+/*  contact  */
+/*  footer  */
+/*  copyright  */
+
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px){
+  .yellow{
+    width: 31%;
+    height: 150px;
+    border: 2px solid black;
+    background: yellow;
+    margin: 10px;
+  }
+  .margin{
+    margin-top:50px;
+  }
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  .yellow{
+    width: 31%;
+    height: 150px;
+    border: 2px solid black;
+    background: yellow;
+    margin: 10px;
+  }
+  .margin{
+    margin-top:50px;
+  }
+}
