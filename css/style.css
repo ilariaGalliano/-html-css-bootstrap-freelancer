@@ -1,62 +1,112 @@
 /*  nav  */
-  .blue{
+.nav{
   background: #2c3e50;
   height: 100px;
+}
+.nav .row .col-md-3{
+  height:60px;
+  margin-top: 20px;
+  background:#ffff;
 }
 /*  main  */
 .green{
   background: #1abc9c;
   height: 400px;
 }
+.green .row .col-md-12{
+  margin-top: 20px;
+  height:300px;
+  background: #ffff;
+}
 /*  portfolio  */
 .portfolio{
   background: #ffff;
-  height:600px;
+  height:800px;
 }
-.margin{
+.pink{
+  height: 100px;
+  border: 1px solid black;
+  background: pink;
   margin: 10px;
 }
-.yellow{
-  height: 150px;
-  width: 100%;
-  border: 2px solid black;
-  background: yellow;
+/*  about */
+.red{
+  height: 100px;
+  border: 1px solid black;
+  background: red;
   margin: 10px;
-}
-/*  about  */
-.about{
-  background: #1abc9c;
-  height:400px;
 }
 /*  contact  */
+.contact{
+ background: lightgrey;
+ height: 400px;
+}
+.contact .row .col-md-8{
+  margin-top: 20px;
+  height:200px;
+  background: #ffff;
+}
 /*  footer  */
+footer{
+  background:#2c3e50;
+  height:500px;
+}
 /*  copyright  */
-
-
+.copyright{
+  background: #1a252f;
+  height: 100px;
+}
+.text{
+  font-size: 30px;
+  color: #ffff;
+}
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 992px){
-  .yellow{
-    width: 31%;
-    height: 150px;
+  .pink{
+    height: 300px;
     border: 2px solid black;
-    background: yellow;
-    margin: 10px;
+    background: pink;
+    margin: 20px;
   }
   .margin{
     margin-top:50px;
+  }
+  .white{
+    height: 100px;
+    width: 30%;
+    border: 1px solid black;
+    background: white;
+    margin: 10px;
+  }
+  .red{
+    height: 100px;
+    border: 1px solid black;
+    background: red;
+    margin: 40px;
   }
  }
-
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-  .yellow{
-    width: 31%;
-    height: 150px;
+  .pink{
+    height: 300px;
     border: 2px solid black;
-    background: yellow;
-    margin: 10px;
+    background: pink;
+    margin: 20px;
   }
   .margin{
     margin-top:50px;
+  }
+  .white{
+    height: 100px;
+    width: 40%;
+    border: 1px solid black;
+    background: white;
+    margin: 10px;
+  }
+  .red{
+    height: 100px;
+    border: 1px solid black;
+    background: red;
+    margin: 40px;
   }
 }
