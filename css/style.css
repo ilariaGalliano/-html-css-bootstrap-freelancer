@@ -1,112 +1,236 @@
-/*  nav  */
-.nav{
+/* General */
+body{
+  font-family: 'Lato', sans-serif;
+}
+.main-header{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+/* nav */
+.navbar{
   background: #2c3e50;
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0;
   height: 100px;
 }
-.nav .row .col-md-3{
-  height:60px;
-  margin-top: 20px;
-  background:#ffff;
+.navbar-brand,
+.navbar-nav > li > a{
+  line-height: 80px;
 }
-/*  main  */
-.green{
+.navbar-default .navbar-nav > li > a{
+  color: white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color:#1abc9c;
+}
+.navbar-default .navbar-brand{
+  color: white;
+  font-size: 30px;
+}
+.white-text{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* main */
+.main{
   background: #1abc9c;
-  height: 400px;
+  height: 600px;
 }
-.green .row .col-md-12{
-  margin-top: 20px;
-  height:300px;
-  background: #ffff;
+.box .text-center{
+  text-align: center;
+}
+.avatar{
+  margin-top: 40px;
+  max-height: 300px;
+}
+h1{
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.graphic{
+  color:#fff;
+  font-size: 24px;
+}
+span i{
+  color: #fff;
+  font-size: 20px;
+  margin: 10px 10px 30px;
 }
 /*  portfolio  */
 .portfolio{
   background: #ffff;
-  height:800px;
+  height:1800px;
+}
+.text-portfolio{
+  margin-top: 50px;
+  text-align: center;
+}
+.text-black{
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #2c3e50;
+}
+.stella{
+  color: #2c3e50;
+  font-size: 20px;
+  margin: 0 10px 30px;
 }
 .pink{
-  height: 100px;
-  border: 1px solid black;
-  background: pink;
-  margin: 10px;
+  text-align: center;
+}
+.pink > img{
+  max-width: 300px;
+  margin-bottom: 40px;
 }
 /*  about */
+.green{
+  height: 750px;
+  background: #1abc9c;
+}
 .red{
-  height: 100px;
-  border: 1px solid black;
-  background: red;
-  margin: 10px;
+  text-align: center;
+  margin-top:20px;
+}
+.red > h2{
+  margin-top:50px;
+}
+.about-text{
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.red > .graphic{
+  text-align: left;
+  margin-right: 25px;
+}
+.btn .fas{
+  margin-right: 5px;
+  padding: 20px;
+}
+.btn{
+  margin-top: 30px;
+  font-weight: 30px;
 }
 /*  contact  */
-.contact{
- background: lightgrey;
- height: 400px;
+.contact {
+ background:#fff;
+ height: 500px;
 }
-.contact .row .col-md-8{
-  margin-top: 20px;
-  height:200px;
-  background: #ffff;
+.contact-me{
+  text-align: center;
+}
+.contact-me > .text-black{
+  margin-top:50px;
+}
+.form-control{
+  font-size: 20px;
+  height: 50px;
+  border-image:none;
+  border:0;
+  border-bottom: 1px solid #999;
 }
 /*  footer  */
 footer{
   background:#2c3e50;
   height:500px;
 }
+.social{
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 50px;
+  color: #fff;
+}
+.pink > h3{
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-top: 50px;
+  color: #fff;
+}
+.pink > p{
+  font-size: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+.pink p a{
+  color: #1abc9c;
+}
+.pink p a:hover{
+  color: #117964;
+  text-decoration: underline;
+}
 /*  copyright  */
 .copyright{
   background: #1a252f;
-  height: 100px;
+  height: 60px;
 }
 .text{
-  font-size: 30px;
+  line-height: 3.5;
+  font-size: 12px;
   color: #ffff;
 }
 /* Medium devices (desktops, 992px and up) */
 @media screen and (min-width: 992px){
-  .pink{
-    height: 300px;
-    border: 2px solid black;
-    background: pink;
-    margin: 20px;
-  }
   .margin{
     margin-top:50px;
   }
-  .white{
-    height: 100px;
-    width: 30%;
-    border: 1px solid black;
-    background: white;
-    margin: 10px;
+  .text-portfolio{
+    margin-top: 80px;
   }
-  .red{
-    height: 100px;
-    border: 1px solid black;
-    background: red;
-    margin: 40px;
+  .portfolio{
+    background: #ffff;
+    height:800px;
   }
+  .pink > img{
+    max-width: 320px;
+    margin-bottom: 40px;
+  }
+  .green{
+    height: 600px;
+    background: #1abc9c;
+  }
+  footer{
+    background:#2c3e50;
+    height:300px;
+  }
+  .copyright{
+    background: #1a252f;
+    height: 60px;
+  }
+
  }
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-  .pink{
-    height: 300px;
-    border: 2px solid black;
-    background: pink;
-    margin: 20px;
-  }
   .margin{
     margin-top:50px;
   }
-  .white{
-    height: 100px;
-    width: 40%;
-    border: 1px solid black;
-    background: white;
-    margin: 10px;
+  .text-portfolio{
+    margin-top: 80px;
   }
-  .red{
-    height: 100px;
-    border: 1px solid black;
-    background: red;
-    margin: 40px;
+  .portfolio{
+    background: #ffff;
+    height:800px;
   }
+  .pink > img{
+    max-width: 320px;
+    margin-bottom: 40px;
+  }
+  .green{
+    height: 600px;
+    background: #1abc9c;
+  }
+  footer{
+    background:#2c3e50;
+    height:300px;
+  }
+  .copyright{
+    background: #1a252f;
+    height: 60px;
+  }
+
 }
